@@ -5,6 +5,14 @@ body {
   outline: black;
 }
 
+#quote {
+  position: absolute;
+  bottom: 100px;
+}
+#quote-m {
+  position: absolute;
+  bottom: 160px;
+}
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -197,11 +205,5 @@ a:active {
   color: #007bff;
 }
 
-.skill-icon {
-  height: auto;
-  width: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  max-width: 80px;
-  max-height: 80px;
-}
+
+
